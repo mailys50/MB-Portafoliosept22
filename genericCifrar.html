@@ -86,28 +86,6 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script>
-		let video = document.querySelector('video');
-
-		// Set the default playing speed
-		video.defaultPlaybackRate = 1.45
-
-		// Loading the video after setting 
-		video.load();
-
-		function increase() {
-
-			// Increasing the playing speed by 1
-			video.playbackRate += 1;
-		}
-
-		function decrease() {
-
-			// Decreasing the playing speed by 1
-			if (video.playbackRate > 1)
-				video.playbackRate -= 1;
-		}
-	</script>
 </body>
 
 </html>
